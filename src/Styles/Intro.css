@@ -1,0 +1,54 @@
+.main.special {
+    text-align: center;
+    padding: 2em 0;
+  }
+  
+  header.major {
+    margin-bottom: 1em;
+  }
+  
+  header.major h2 {
+    font-size: 2em;
+  }
+  
+  header.major p {
+    font-size: 1em;
+    color: #666;
+  }
+
+  #style{
+    position: relative;
+  background-color: rgb(177, 177, 228);
+  color: white;
+  padding: 2em;
+  text-align: center;
+  border-radius: 8px;
+  }
+
+  .arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2em;
+    cursor: pointer;
+    background: none;
+    border: none ;
+    color: white ;
+    outline: none ;
+    z-index: 10; /* Ensure arrows are above the slide content */
+    opacity: 1;
+  }
+  
+  .arrow:hover {
+    opacity: 1; /* Make arrows more visible on hover */
+  }
+
+  .left-arrow {
+    left: 1em;
+    
+  }
+  
+  .right-arrow {
+    right: 1em;
+    
+  }
