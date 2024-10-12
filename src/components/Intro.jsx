@@ -75,7 +75,7 @@ The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for t
 									<h2>Team</h2>
                   <section id="style">
                     {pages[currentPage]}
-									  {/*<p>{pages[currentPage].content}</p>*/}
+					{/*<p>{pages[currentPage].content}</p>*/}
                     <div className="arrow left-arrow" onClick={goToPreviousPage}>
                   &#10094;
                 </div>
