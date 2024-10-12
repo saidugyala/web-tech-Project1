@@ -1,28 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import '../Styles/Intro.css';
+import Page1 from './Page1';
+import Page2 from './Page2';
+import Page3 from './Page3';
+import Page4 from './Page4';
+import Page5 from './Page5';
+//import '../Styles/Page.css';
 
-const pages = [
-  {
-    title: "Sai Teja",
-    content: "Description for Sai Teja. Donec imperdiet consequat consequat. Suspendisse feugiat congue posuere. Nulla massa urna, fermentum eget quam aliquet.                                                                                                                                    "
-  },
-  {
-    title: "Neha",
-    content: "Description for Neha. Donec imperdiet consequat consequat. Suspendisse feugiat congue posuere. Nulla massa urna, fermentum eget quam aliquet."
-  },
-  {
-    title: "Brijitha",
-    content: "Description for Brijitha. Donec imperdiet consequat consequat. Suspendisse feugiat congue posuere. Nulla massa urna, fermentum eget quam aliquet."
-  },
-  {
-    title: "Shafiq",
-    content: "Description for Shafiq. Donec imperdiet consequat consequat. Suspendisse feugiat congue posuere. Nulla massa urna, fermentum eget quam aliquet."
-  },
-  {
-    title: "Anikith",
-    content: "Description for Anikith. Donec imperdiet consequat consequat. Suspendisse feugiat congue posuere. Nulla massa urna, fermentum eget quam aliquet."
-  }
-];
+const pages = [<Page1 />, <Page2 />, <Page3 />, <Page4 />, <Page5 />];
 
 function Intro() {
   const [currentPage, setCurrentPage] = useState(0);
@@ -37,7 +22,6 @@ function Intro() {
     setCurrentPage(newIndex);
   };
   useEffect(() => {
-    // Automatically change page every 3 seconds
     const interval = setInterval(() => {
       setCurrentPage((prevPage) => (prevPage + 1) % pages.length);
     }, 4000);
@@ -87,8 +71,8 @@ function Intro() {
 								<header class="major">
 									<h2>Team</h2>
                   <section id="style">
-                    <h3>{pages[currentPage].title}</h3>
-									  <p>{pages[currentPage].content}</p>
+                    {pages[currentPage]}
+									  {/*<p>{pages[currentPage].content}</p>*/}
                     <div className="arrow left-arrow" onClick={goToPreviousPage}>
                   &#10094;
                 </div>
