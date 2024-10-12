@@ -4,7 +4,7 @@ function Header() {
   return (
     <header id="header" className="alt">
       <span className="logo"><img src="images/logo.svg" alt="" /></span>
-      <h1>Project Review</h1>
+      <h1>Survey in Web Search Optimization and Recommendation Systems</h1>
     </header>
   );
 }
