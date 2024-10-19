@@ -3778,3 +3778,18 @@ input, select, textarea {
 			}
 
 		}
+
+/* paragraph in contacts */
+
+#style .Page-content p {
+	width: 80%;
+	margin: auto;
+	margin-bottom: 50px;
+}
+
+#style .Page-content img{
+	object-fit: contain;
+	max-height: 200px;
+	max-width: 200px;
+	
+}

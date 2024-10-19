@@ -18,22 +18,22 @@ function Page4() {
         <h3>Papers worked upon:</h3>
         <ul>
           <li>
-            <a href="https://www.mdpi.com/2079-9292/12/12/2661">
+            <a href="https://www.mdpi.com/2079-9292/12/12/2661" target='/1'>
             : Recommender Systems Metaheuristic For Optimizing Decision Making Computation
             </a>
           </li>
           <li>
-            <a href="https://www.frontiersin.org/journals/big-data/articles/10.3389/fdata.2023.1157899/full">
+            <a href="https://www.frontiersin.org/journals/big-data/articles/10.3389/fdata.2023.1157899/full" target='/2'>
             A Survey On Multi Objective Recommender Systems
             </a>
           </li>
           <li>
-            <a href="https://onlinelibrary.wiley.com/doi/full/10.1155/2022/4277909">
+            <a href="https://onlinelibrary.wiley.com/doi/full/10.1155/2022/4277909" target='/3'>
             Web Search Composition Optimization With the Improved Fireworks Algorithm
             </a>
           </li>
           <li>
-            <a href="https://link.springer.com/article/10.1007/s10462-023-10470-y">
+            <a href="https://link.springer.com/article/10.1007/s10462-023-10470-y" target='/4'>
             An Exhaustive Review Of The MetaHeuristic Algorithms For Search and
             Optimization: Taxonomy, Applications, And Open Challenges
             </a>
