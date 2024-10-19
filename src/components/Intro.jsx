@@ -25,7 +25,7 @@ function Intro() {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentPage((prevPage) => (prevPage + 1) % pages.length);
-    }, 100000);
+    }, 8000);
 
     // Cleanup interval on component unmount
     return () => clearInterval(interval);
@@ -40,9 +40,16 @@ function Intro() {
 										<header className="major">
 											<center><h2>Home</h2></center>
 										</header>
-										<p>Sed lorem ipsum dolor sit amet nullam consequat feugiat consequat magna
-										adipiscing magna etiam amet veroeros. Lorem ipsum dolor tempus sit cursus.
-										Tempus nisl et nullam lorem ipsum dolor sit amet aliquam.</p>
+										<h2>Key Challenges</h2>
+										<p>Web search personalization and recommender systems encounter several complicated issues that limit their effectiveness. Maintaining a balance between diversity and innovation and accuracy in recommender systems is still a major challenge because consumers prefer to look for a wider variety of choices rather than just the most well-liked ones. Furthermore, local optima are harder to avoid in multi-objective optimization, demanding comprehensive parameter tuning and Pareto optimality confirmation. Large language models (LLM's) biases can also produce unfair recommendations, which raises ethical issues. Similar problems with web search personalization include user privacy, which is frequently damaged by data tracking. The environment is further complicated by elements like search history and location, which might bias results and restrict user's access to a variety of content. </p>
+										<br></br>
+										<h2>Recent Trends</h2>
+										<p>
+										Advancements in recommender systems and SEO are drastically changing the landscape. In the field of SEO, mobile-first indexing and AI-powered content creation have become essential components of contemporary optimization strategies. The diversity and quality of recommendations for recommender systems are being enhanced by hybrid models that combine various reinforcement learning algorithms with recommendation techniques. People are becoming more aware of the privacy of their data, which is why DuckDuckGo and other privacy-focused search engines are gaining in popularity. Additionally, the growing popularity of VPNs emphasizes how important it is to be anonymous online. In addition, companies are increasingly employing White Hat SEO practices to keep up with search engine requirements and improve their online visibility.
+										</p>
+										<br></br>
+										<h2>Future Directions</h2>
+										<p>In the long run, recommender system research will concentrate on improving dynamic, real-time recommendations so that systems can more successfully adjust to changing user preferences. Another important area of research is improving LLM's ability to follow instructions, which will help models understand user intent in recommendation tasks more precisely. The development of techniques for balancing user privacy and personalization in web searches will be essential. The long-term effects of tailored search results on user behavior will also be studied by researchers, who hope to develop systems that offer useful content without compromising user diversity or privacy. The development of these technologies will be shaped by ongoing cooperation and innovation in these fields, opening the door to more morally and practically sound solutions. </p>
 									</div>
 									
 								</div>
