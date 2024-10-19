@@ -17,7 +17,7 @@
   }
 
   #style{
-    position: relative;
+  position: relative;
   background-color: rgb(177, 177, 228);
   color: white;
   padding: 2em;
@@ -51,4 +51,38 @@
   .right-arrow {
     right: 1em;
     
-  }
+}
+
+.nav {
+  position: sticky;    /* Makes the navbar stay on top while scrolling */         
+  top: 0;
+  width: 100%;        /* Full width to span across the screen */
+  background-color: #f4f4f4;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Slight shadow for better visibility */
+  z-index: 1000;      /* Keeps the navbar on top of other content */
+  padding: 15px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.nav li {
+  margin: 0 15px;
+}
+
+.nav a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #333;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.nav a:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
