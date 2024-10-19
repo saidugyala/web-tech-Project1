@@ -1,15 +1,19 @@
 import React from 'react';
-
+import AnkithImage from '../Images/Ankith_profile.jpeg'
 function Page5() {
   return (
     <div className="Page-content">
       <h2>Anikith</h2>
-
+      <img src={AnkithImage} style={{'height': '200px', 'width': '200px'}} alt="Ankith Image" />
       <p>
         <strong>Role:</strong>
         Content Validator
       </p>
-      <p>This is the content for the Anikith .
+      <p>I am pursuing my Masters in Computer Science from Saint Louis University. My hobbies 
+        include playing tennis, gaming and travelling. I have worked on a few exciting projects 
+        such as visual light communication and hybrid Li-Fi and Wi-Fi environments. I also take 
+        great interest in computer security and the different kinds of threats that can be mitigated 
+        with the advancement of technology.
       </p>
       <p className='my-links'>
         <h3>Papers worked upon:</h3>
