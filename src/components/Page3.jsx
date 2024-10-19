@@ -37,6 +37,11 @@ function Page3() {
             E Recruitment Recommender Systems: a Systematic Review
             </a>
           </li>
+          <li>
+            <a href="https://www.emerald.com/insight/content/doi/10.1108/OIR-05-2022-0276/full/html">
+            Search engine optimization (SEO) for digital marketers: exploring determinants of online search visibility for blood bank service
+            </a>
+          </li>
         </ul>
       </p>
 

@@ -40,6 +40,11 @@ function Page1() {
             Angular FrameWork
             </a>
           </li>
+          <li>
+            <a href="https://dl.acm.org/doi/full/10.1145/3627826">
+            Trustworthy Recommender Systems
+            </a>
+          </li>
         </ul>
       </p>
 

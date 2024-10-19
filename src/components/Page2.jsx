@@ -40,6 +40,11 @@ function Page2() {
             Search Engine Optimization: A Review About Concepts,Techniques And Algorithms
             </a>
           </li>
+          <li>
+            <a href="https://ieeexplore.ieee.org/abstract/document/10140756">
+            Multi-Agent Personalized Recommendation System in E-Commerce based on User
+            </a>
+          </li>
         </ul>
       </p>
 

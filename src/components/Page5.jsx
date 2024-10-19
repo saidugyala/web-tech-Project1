@@ -3,7 +3,7 @@ import AnkithImage from '../Images/Ankith_profile.jpeg'
 function Page5() {
   return (
     <div className="Page-content">
-      <h2>Anikith</h2>
+      <h2>Ankith</h2>
       <img src={AnkithImage} style={{'height': '200px', 'width': '200px'}} alt="Ankith Image" />
       <p>
         <strong>Role:</strong>
@@ -39,6 +39,11 @@ function Page5() {
           <li>
             <a href="https://arxiv.org/pdf/2206.02631v4">
             Contemporary Recommendation Systems on Big Data and Their Applications: A Survey
+            </a>
+          </li>
+          <li>
+            <a href="https://arxiv.org/abs/2011.02260">
+            Graph Neural Networks in Recommender Systems: A Survey
             </a>
           </li>
         </ul>
