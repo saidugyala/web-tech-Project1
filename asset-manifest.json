@@ -1,21 +1,24 @@
 {
   "files": {
-    "main.css": "/webteam2/static/css/main.7054f12b.css",
-    "main.js": "/webteam2/static/js/main.517af766.js",
+    "main.css": "/webteam2/static/css/main.a861b9c1.css",
+    "main.js": "/webteam2/static/js/main.76b506c5.js",
     "static/js/453.3713bf3b.chunk.js": "/webteam2/static/js/453.3713bf3b.chunk.js",
     "static/media/Brijitha_profile.jpeg": "/webteam2/static/media/Brijitha_profile.9002b84ca8891f8236cd.jpeg",
     "static/media/saidugyala_profile.jpg": "/webteam2/static/media/saidugyala_profile.8d86751f133b4acf3981.jpg",
     "static/media/Shaffeq_profile.jpeg": "/webteam2/static/media/Shaffeq_profile.50a44a4b73dd188c1319.jpeg",
+    "static/media/SEO.jpg": "/webteam2/static/media/SEO.47c0ab96baaa5e6915d8.jpg",
+    "static/media/Multiple.jpeg": "/webteam2/static/media/Multiple.0259c9cf579b6e684ebc.jpeg",
+    "static/media/Evaluation_metrics.jpeg": "/webteam2/static/media/Evaluation_metrics.8eb9b252c20516b6f74a.jpeg",
     "static/media/Ankith_profile.jpeg": "/webteam2/static/media/Ankith_profile.9e2088ed5c0757f10129.jpeg",
     "static/media/Neha_profile.jpeg": "/webteam2/static/media/Neha_profile.ac8fcdf4d441a4f884e0.jpeg",
     "static/media/overlay.png": "/webteam2/static/media/overlay.399bf960960d2146f71d.png",
     "index.html": "/webteam2/index.html",
-    "main.7054f12b.css.map": "/webteam2/static/css/main.7054f12b.css.map",
-    "main.517af766.js.map": "/webteam2/static/js/main.517af766.js.map",
+    "main.a861b9c1.css.map": "/webteam2/static/css/main.a861b9c1.css.map",
+    "main.76b506c5.js.map": "/webteam2/static/js/main.76b506c5.js.map",
     "453.3713bf3b.chunk.js.map": "/webteam2/static/js/453.3713bf3b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7054f12b.css",
-    "static/js/main.517af766.js"
+    "static/css/main.a861b9c1.css",
+    "static/js/main.76b506c5.js"
   ]
 }
