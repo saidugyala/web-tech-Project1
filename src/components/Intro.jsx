@@ -92,10 +92,54 @@ function Intro() {
 							<section id="first" className="main special">
 								<header className="major">
 									<h2>Content</h2>
-									<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-
-The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.  </p>
-								</header>
+									</header>
+								<div>
+									<p>The surveyed literature on web optimization and recommendation systems encompasses a 
+										diverse range of methodologies and approaches aimed at enhancing user experience through
+										 improved accuracy, diversity, and fairness in recommendations. Key themes include the 
+										evolution of algorithms from traditional collaborative filtering to advanced hybrid models
+										 and deep learning techniques, which leverage user data more effectively. Many studies 
+										 emphasize the importance of multi-objective optimization frameworks that balance competing 
+										 goals, such as accuracy and diversity, while addressing challenges like data sparsity and 
+										 the cold-start problem. The integration of generative models has emerged as a promising 
+										 avenue for generating novel recommendations, thereby increasing user engagement. 
+										 Additionally, metaheuristic algorithms have been highlighted for their ability to 
+										 navigate complex optimization landscapes. User-centric design principles are increasingly 
+										 recognized as vital for ensuring that systems meet real-world needs, with a focus on incorporating 
+										 user feedback and addressing fairness issues. Overall, the literature underscores the necessity for 
+										 ongoing research to develop robust, scalable, and user-friendly systems that can adapt to the dynamic 
+										 nature of user preferences and behaviors.
+										 </p>
+										<br />
+										<img src={Evaluation} style={{'height': '400px', 'width': '400px'}} alt="Evaluation Image" />
+										<p>
+										The flowchart outlines an approach to optimizing recommendation systems using multi-objective optimization 
+										to balance accuracy, diversity, and fairness. First, key objectives like relevance, variety, and 
+										novelty are defined. An optimization method, such as evolutionary algorithms or deep learning, 
+										is chosen to balance these goals. The system collects user data, trains the model, and generates 
+										recommendations. Trade-offs are evaluated using performance metrics, and the best solution is selected. 
+										The system is then updated to adapt to user preferences, with iterative refinement for continuous improvement.
+										</p>
+										<br />
+										<img src={Multiple} style={{'height': '400px', 'width': '400px'}} alt="Multiple Image" />
+										<p>
+										The flowchart presents a structured approach to evaluating recommender systems for continuous improvement. 
+										It begins by defining key metrics like accuracy, diversity, and user satisfaction. Offline testing is 
+										conducted using historical data, followed by online experiments such as A/B testing to gather real-time 
+										feedback. The results are analyzed to identify strengths and areas for improvement. Based on this analysis, 
+										specific enhancements are implemented, and the process iterates, ensuring the system evolves and improves over time.
+										</p>
+										<br />
+										<img src={SEO} style={{'height': '400px', 'width': '400px'}} alt="SEO Image" />
+										<p>
+										This survey explores the critical components of Search Engine Optimization (SEO) and their 
+										interrelationships. Central to the discussion is SEO itself, with surrounding elements such as 
+										backlinks, analysis, content, ranking, site architecture, and traffic. Each of these factors 
+										plays a vital role in enhancing online visibility and search engine performance. By examining 
+										how these elements interact, the survey aims to provide insights into effective SEO strategies 
+										that can lead to improved website rankings and increased organic traffic.
+										</p>
+									</div>
 							</section>
 
 					
