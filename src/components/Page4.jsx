@@ -13,6 +13,7 @@ function Page4() {
         My hobbies include playing football (soccer), photography, and travelling. I have previously worked 
         as a data analyst and am interested in learning more about predictive modeling and computer vision. 
         I have completed a few projects featuring machine learning (CNN), mobile app development (Kotlin), and IoT.
+        My contribution for the project includes Website development and survey paper on overleaf.
       </p>
       <p className='my-links'>
         <h3>Papers worked upon:</h3>

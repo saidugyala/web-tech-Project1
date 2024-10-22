@@ -16,6 +16,7 @@ function Page2() {
         Python, Java, and JavaScript. In addition to my technical work, I have experience in event planning 
         and open source contributions. I am the project's delivery and reporting lead and am also assisting 
         with web development.
+        My contribution for the project includes Website development and worked on survey paper.
       </p>
       <p className='my-links'>
         <h3>Papers worked upon:</h3>

@@ -14,6 +14,7 @@ function Page5() {
         such as visual light communication and hybrid Li-Fi and Wi-Fi environments. I also take 
         great interest in computer security and the different kinds of threats that can be mitigated 
         with the advancement of technology.
+        My contribution for the project includes Validating the reaserch papers and survey paper on overleaf .
       </p>
       <p className='my-links'>
         <h3>Papers worked upon:</h3>

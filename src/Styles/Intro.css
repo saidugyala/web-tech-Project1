@@ -86,3 +86,40 @@
   background-color: rgba(0, 0, 0, 0.1);
 }
 
+.buttontoggle {
+  cursor: pointer;
+  color: rgb(177, 177, 228) !important;
+  text-decoration: underline;
+}
+
+.mycontent {
+  margin-top: 10px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  background-color: #f9f9f9;
+  display: none;
+}
+
+.container {
+  padding: 30px;
+  font-size: 18px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Tablet view (max-width: 1024px) */
+@media only screen and (max-width: 1024px) {
+  .container {
+      padding: 20px;
+      font-size: 16px;
+  }
+}
+
+/* Mobile view (max-width: 600px) */
+@media only screen and (max-width: 600px) {
+  .container {
+      padding: 10px;
+      font-size: 14px;
+  }
+}
+

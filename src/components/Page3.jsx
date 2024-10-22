@@ -13,6 +13,7 @@ function Page3() {
         My Hobbies are Swimming, Watching Movies, Travelling.I have worked as software Engineer 
         for 2.3 Years and I am Interested In Learning Front End and Back End Technologies to work 
         and get more experience in  real time projects.
+        My contribution for the project includes validating research papers and worked on Survey paper.
       </p>
       <p className='my-links'>
         <h3>Papers worked upon:</h3>
